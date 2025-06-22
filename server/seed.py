@@ -2,7 +2,7 @@
 # server/seed.py
 
 from app import app
-from models import db, Earthquake
+from server.models import db, Earthquake
 
 with app.app_context():
 
